@@ -1,0 +1,18 @@
+.contacto{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    background-color: white;
+    align-items: baseline;
+}
+
+@media screen and (max-width:768px){
+    .contacto{
+        display: flex;
+        flex-direction: column;
+    }    
+
+   }
+

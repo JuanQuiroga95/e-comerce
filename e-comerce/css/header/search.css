@@ -1,0 +1,44 @@
+.search{
+    background-color:  rgb(16, 175, 243);
+    width: fit-content;
+    padding: 4px;
+    display: flex;
+    border-radius: 25px;
+    
+}
+div.search input {
+    transition: 0.4s;
+    width: 0;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    padding: 0px;
+    color: antiquewhite;
+}
+
+.search:hover input{
+    width: 140px;
+    padding: 0 10px 0 10px;
+    
+}
+
+div.search input::placeholder {
+    color: white;
+}
+
+div.search img{
+    width: 20px;
+    background-color: #2A7AE4;
+    padding: 10px;
+    border-radius: 50%;
+   
+}
+
+
+@media screen and (max-width:768px) {
+    .search{
+        margin-top: 1.5rem;
+    }
+}
+

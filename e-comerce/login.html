@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header/header.css">
+    <link rel="stylesheet" href="css/header/search.css">
+    <link rel="stylesheet" href="css/contacto/contacto.css">
+    <link rel="stylesheet" href="css/contacto/titulo.css">
+    <link rel="stylesheet" href="css/contacto/container.css">
+    <link rel="stylesheet" href="css/contacto/formulario.css">
+    <link rel="stylesheet" href="css/login/login.css">
+    <link rel="stylesheet" href="css/validacion.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title> Portafolio Juan Quiroga</title>
+</head>
+
+<body>
+    <div class="todo">
+        <section class="menu">
+            <header>
+                <section class="barra">
+                    <div class="alura">
+                        <img class="img" src="assets/img/Vector.png">
+                        <h2 class="titulo__barra">Alura<span>Week</span></h2>
+                    </div>
+                    <div class="search">
+                        <img src="assets/img/busqueda.png" alt="icon">
+                        <input type="search" placeholder="Buscar">
+                </section>
+            </header>
+        </section>
+        
+        <Section class="forms" id="form" action="" method="POST">
+            <form class="form">
+                <p id="heading">Login</p>
+                <div class="field">
+                  <input placeholder="Usuario" class="input-field" type="name" id="name"required >
+                </div>
+                <div class="field">
+                  <input placeholder="Contraseña" class="input-field" type="password" id="password" required >
+                </div>
+                <div class="btn">
+                <button type="submit" class="button1" >Login</button>
+                <button class="button2">Sign Up</button>
+                </div>
+                <button class="button3">Forgot Password</button>
+            </form>
+        </Section>
+        
+        <section class="contacto">
+            <div class="titulo__contacto">
+                <h2 class="titulo__contactos">Alura<span>Week</span></h2>
+            </div>    
+            <div class="container__contacto">
+                <ul class="lista__contacto">
+                    <li class="elemento__lista">Quienes somos</li>
+                    <li class="elemento__lista">Politica de privacidad</li>
+                    <li class="elemento__lista">Programa de fidelidad</li>
+                    <li class="elemento__lista">Nuestras tiendas</li>
+                    <li class="elemento__lista">Quiero ser franquiciado</li>
+                    <li class="elemento__lista">Anúncie aqui</li>
+                </ul>
+            </div>
+            <div class="formulario__contacto">
+                <h3 class="titulo__formulario">Contactanos</h3>
+                <input type="text" class="input__formulario" placeholder="Nombre">
+                <input type="text" class="input__formulario" placeholder="Escriba un mensaje">
+                <button class="boton__formulario">Enviar</button>
+            </div>
+           
+        </section>
+        <section class="footer">
+            <div class="rodape">
+                <p>Desarrollado por Juan Quiroga</p>
+                <p>2023</p>
+            </div>
+        </section>
+        <script src="js/validacion.js"></script>
+</body>
+
+</html>

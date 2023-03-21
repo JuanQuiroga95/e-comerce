@@ -1,0 +1,55 @@
+.banner{
+    position: relative;
+    padding-top: 5rem;
+    
+}
+
+.banner__imagen{
+    background: url('../../assets/img/fondo.jpg') no-repeat center / cover;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    font-size: 2.5rem;
+}
+
+.banner__titulo{
+    color: #fdfdfd;
+    font-family: Pacifico, cursive;
+    position: absolute;
+    left: 27%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top: 70%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+}
+
+.banner__subtitulo{
+    color: #fdfdfd;
+    font-family: Pacifico, cursive;
+    position: absolute;
+    left: 25%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top: 80%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+
+
+@media screen and (max-width:768px){
+    .banner__imagen{
+        height: 300px;
+        font-size: 1rem;
+    }
+    .banner__titulo{
+        margin-left: 1.5rem;
+    }
+    .banner__subtitulo{
+        font-size: 1rem;
+        margin-left: .5rem;
+    }
+}

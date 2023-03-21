@@ -1,0 +1,14 @@
+section.cards h2.Titulo__card {
+    width: 141px;
+    height: 60px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    display: inline;
+    padding-left: 2rem;
+}
+
+

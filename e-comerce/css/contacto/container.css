@@ -1,0 +1,9 @@
+.lista__contacto{
+    display: flex;
+    flex-direction: column;
+}
+
+.elemento__lista{
+    padding-top: 1rem;
+}
+

@@ -1,0 +1,57 @@
+div.login input{
+    --glow-color: rgb(158, 241, 247);
+    --glow-spread-color: rgba(9, 110, 187, 0.781);
+    --enhaced-glow-color: rgb(16, 175, 243);
+    --btn-color: rgb(9, 62, 148);
+    border: .25em solid var(--glow-color);
+    padding: .5em 2em;
+    color: var(--glow-color);
+    font-size: 25px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: .5em;
+    outline: none;
+    box-shadow: 0 0 .5em .25em var(--glow-color),
+        0 0 .5em .5em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;         
+}
+
+div.login input::after{
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+div.login input:hover{
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 1em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+}
+
+div.login input:active{
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+        0 0 1em 1em var(--glow-spread-color),
+        inset 0 0 .5em .25em var(--glow-color);
+}
+
+
+@media screen and (max-width:768px) {
+    div.login input{
+        margin-top: 1.5rem;
+    }
+    
+    
+}
